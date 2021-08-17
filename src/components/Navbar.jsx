@@ -1,6 +1,5 @@
 import React from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
-import "../styles/Navbar.css";
 import "./logo.svg";
 
 const navBar = () => {
@@ -11,9 +10,8 @@ const navBar = () => {
       expand="lg"
       bg="dark"
       variant="dark"
-      className="Navi"
     >
-      <Container className="container-fluid">
+      <Container fluid className="container-fluid">
         <Navbar.Brand href="#home">BookingApp</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
