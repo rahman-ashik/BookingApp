@@ -7,11 +7,12 @@ class navBar extends Component {
   render() {
     return (
       <Navbar
-        claasName="acrylic shadow"
+        sticky="top"
         collapseOnSelect
         expand="lg"
         bg="dark"
         variant="dark"
+        className="Navi"
       >
         <Container className="container-fluid">
           <Navbar.Brand href="#home">BookingApp</Navbar.Brand>
