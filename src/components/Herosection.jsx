@@ -5,7 +5,7 @@ import "../styles/Herosection.css";
 const Herosection = () => {
   return (
     <div
-      className="container-fluid vh-100 position-relative shadow-2xl"
+      className="container-fluid vh-100 text-white position-relative shadow-2xl"
       id="hero"
     >
       <div

@@ -1,24 +1,23 @@
-import React, { Component } from "react";
+import React from "react";
 import { InputGroup, FormControl, Button, Container } from "react-bootstrap";
+import "../styles/Searchlay.css";
 
-class Searchlay extends Component {
-  render() {
-    return (
-      <Container>
-        <h2>Find Hotels and Transportation for a well-spent weekend.</h2>
-        <InputGroup className="mb-3">
-          <FormControl
-            placeholder="You destination"
-            aria-label="Your destination"
-            aria-describedby="basic-addon2"
-          />
-          <Button variant="dark" id="button-addon2">
-            Search
-          </Button>
-        </InputGroup>
-      </Container>
-    );
-  }
-}
+const Searchlay = () => {
+  return (
+    <Container className="blur-search">
+      <h2>Find Hotels and Transportation for a well-spent weekend.</h2>
+      <InputGroup className="mb-3">
+        <FormControl
+          placeholder="You destination"
+          aria-label="Your destination"
+          aria-describedby="basic-addon2"
+        />
+        <Button variant="dark" id="button-addon2">
+          Search
+        </Button>
+      </InputGroup>
+    </Container>
+  );
+};
 
 export default Searchlay;

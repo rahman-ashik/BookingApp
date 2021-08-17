@@ -5,7 +5,7 @@
   height: 100vh;
   backdrop-filter: blur(20px);
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
-  clip-path: polygon(0 0, 100% 0%, 100% 83%, 50% 109%, 0 85%);
+  clip-path: polygon(0 0, 100% 0%, 100% 70%, 40% 100%, 0 80%);
 }
 .flex-container {
   display: flex;
@@ -23,7 +23,6 @@
   place-items: center;
   place-self: center;
   border-radius: 15px;
-  
 }
 @media (max-width: 768px) {
   .flex-container {
