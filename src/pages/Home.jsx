@@ -1,16 +1,15 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
 import Navbar from "../components/Navbar";
 import Herosection from "../components/Herosection";
 import Cards from "../components/Cards";
+import Foot from "../components/Foot";
 import "../styles/Home.css";
 
 const Home = () => {
   return (
     <div className="home-bd">
       <header>
-        <Navbar />
+        <Navbar sticky="top" className="sticky-top" />
         <Herosection />
       </header>
       <body>
@@ -18,6 +17,9 @@ const Home = () => {
           <Cards />
         </p>
       </body>
+      <footer>
+        <Foot />
+      </footer>
     </div>
   );
 };

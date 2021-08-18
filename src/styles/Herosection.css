@@ -21,6 +21,9 @@
   place-items: center;
   place-self: center;
   border-radius: 15px;
+  box-shadow: 11px 10px 57px -4px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 11px 10px 57px -4px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 11px 10px 57px -4px rgba(0, 0, 0, 1);
 }
 @media (max-width: 768px) {
   .flex-container {

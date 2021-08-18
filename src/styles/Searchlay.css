@@ -1,6 +1,9 @@
 .blur-search {
   border-radius: 25px;
   backdrop-filter: blur(50px);
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 11px 10px 57px -4px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 11px 10px 57px -4px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 11px 10px 57px -4px rgba(0, 0, 0, 1);
+  background-blend-mode: exclusion;
   padding: 9%;
 }

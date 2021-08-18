@@ -12,7 +12,11 @@ const Searchlay = () => {
           aria-label="Your destination"
           aria-describedby="basic-addon2"
         />
-        <Button variant="dark" id="button-addon2">
+        <Button
+          className="transform motion-safe:hover:scale-110"
+          variant="dark"
+          id="button-addon2"
+        >
           Search
         </Button>
       </InputGroup>
