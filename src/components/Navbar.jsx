@@ -1,5 +1,6 @@
 import React from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
+import "../styles/Navbar.css";
 
 const navBar = () => {
   return (
@@ -7,13 +8,17 @@ const navBar = () => {
       sticky="top"
       collapseOnSelect
       expand="lg"
-      bg="dark"
+      // bg="dark"
       variant="dark"
-      className="sticky-top"
+      className="sticky-top navbar"
     >
       <Container>
         <Navbar.Brand href="#home">BookingApp</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          id="navbar-toggler-icon"
+          className="navbar-toggler-icon"
+        />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#features">Packages</Nav.Link>

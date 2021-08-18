@@ -20,7 +20,7 @@ const Herosection = () => {
           />
         </div>
         <div>
-          <div className="p-1">
+          <div className="m-5">
             <Searchlay />
           </div>
         </div>

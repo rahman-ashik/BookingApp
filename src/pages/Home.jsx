@@ -8,18 +8,13 @@ import "../styles/Home.css";
 const Home = () => {
   return (
     <div className="home-bd">
-      <header>
-        <Navbar sticky="top" className="sticky-top" />
-        <Herosection />
-      </header>
-      <body>
-        <p className="pt-5">
-          <Cards />
-        </p>
-      </body>
-      <footer>
-        <Foot />
-      </footer>
+      <Navbar sticky="top" className="sticky-top" />
+      <Herosection />
+      <br />
+      <p className="pt-5">
+        <Cards />
+      </p>
+      <Foot />
     </div>
   );
 };

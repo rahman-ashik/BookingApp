@@ -4,7 +4,7 @@ import "../styles/Searchlay.css";
 
 const Searchlay = () => {
   return (
-    <Container className="blur-search">
+    <Container className="blur-search pb-5 mb-5">
       <h2>Find Hotels and Transportation for a well-spent weekend.</h2>
       <InputGroup className="mb-3">
         <FormControl
