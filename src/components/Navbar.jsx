@@ -21,7 +21,7 @@ const navBar = () => {
         />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Packages</Nav.Link>
+            <Nav.Link href="Gallery.jsx">Packages</Nav.Link>
             <Nav.Link href="#pricing">Get Quote</Nav.Link>
           </Nav>
           <Nav>
