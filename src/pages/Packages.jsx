@@ -30,14 +30,14 @@ const Packages = () => {
             return (
               <Gallery
                 key={i}
-                id={location[i].Id}
-                name={location[i].Name}
-                country={location[i].Country}
-                city={location[i].City}
-                start={location[i].Date_start}
-                end={location[i].Date_End}
-                price={location[i].Price}
-                rating={location[i].Rating}
+                id={place.id}
+                name={place.name}
+                country={place.country}
+                city={place.city}
+                start={place.date_start}
+                end={place.date_End}
+                price={place.price}
+                rating={place.rating}
               />
             );
           })}
