@@ -1,7 +1,6 @@
 import React from "react";
 // import Location from "../pack-location";
 import {
-  Container,
   Card,
   ListGroup,
   ListGroupItem,
@@ -9,19 +8,23 @@ import {
 } from "react-bootstrap";
 import "../styles/Gallery.css";
 
-const Gallery = ({ name, country, city, totalDays, price, rating }) => {
+const Gallery = ({
+  name,
+  country,
+  city,
+  start,
+  end,
+  price,
+  rating,
+}) => {
   return (
     <div>
-      <Container>
-        <Card className="card" style={{ width: "18rem" }}>
-          <Card.Img
-            variant="top"
-            src="https://images.unsplash.com/photo-1539452146933-466b959d1019?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-          />
+        <Card className="card mt-5" style={{ width: "18rem" }}>
+          {/* <Card.Img variant="top" src="" /> */}
           <Card.Body>
             <Card.Title>{name}</Card.Title>
             <Card.Text>
-              {totalDays}, {country}
+              From {start} to {end}, {country}
             </Card.Text>
           </Card.Body>
           <ListGroup className="list-group-flush">
@@ -40,7 +43,6 @@ const Gallery = ({ name, country, city, totalDays, price, rating }) => {
             </Card.Link>
           </Card.Body>
         </Card>
-      </Container>
     </div>
   );
 };
