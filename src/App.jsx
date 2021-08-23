@@ -1,9 +1,8 @@
 import React from "react";
-// import Home from "./pages/Home";
-import Packages from "./pages/Packages";
+import Home from "./pages/Home";
 
 const App = () => {
-  return <Packages />;
+  return <Home />;
 };
 
 export default App;
