@@ -38,6 +38,7 @@ const Packages = () => {
                 end={place.date_End}
                 price={place.price}
                 rating={place.rating}
+                img={place.images[0]}
               />
             );
           })}
