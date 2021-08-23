@@ -18,7 +18,11 @@ const Packages = () => {
   return (
     <>
       <div>
-        <Navbar sticky="top" className="sticky-top" />
+        <Navbar
+          position="relative"
+          sticky="top"
+          className="sticky-top position-relative zindex-sticky"
+        />
         <br />
         <h1 className="h1 text-center">Packages</h1>
         <h2 className="h2 text-center text-muted">

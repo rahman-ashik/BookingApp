@@ -5,11 +5,11 @@ import "../styles/Cards.css";
 const Cards = () => {
   return (
     <div className="card-section">
-      <Container>
+      <Container className="container">
         <h2 className="text-center p-5 Card-txt">
           Get the best deal according to your needs.
         </h2>
-        <Row className="d-flex justify-content-around align-items-center align-self-center align-content-center text-white">
+        <Row className="d-flex flex-container justify-content-around align-items-center align-self-center align-content-center m-2 text-white">
           <Col>
             <Card style={{ width: "20rem" }}>
               <Card.Img

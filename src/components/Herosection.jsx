@@ -10,7 +10,7 @@ const Herosection = () => {
     >
       <div
         id="heroInner"
-        className="container-fluid position-absolute px-5 p-4 top-50 start-50 translate-middle flex-container"
+        className="container position-absolute px-5 p-4 top-50 start-50 translate-middle d-inline-flex flex-container justify-content-evenly align-items-center align-self-center align-content-center"
       >
         <div className="hero-md">
           <img
